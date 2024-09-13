@@ -1,0 +1,28 @@
+header {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav li:first-child:hover {
+    color: red;
+}
+
+nav li:last-child:hover {
+    box-shadow: 0 0 2px 20px green;
+    background-color: green;
+    text-decoration: underline;
+}
+
+nav li:nth-child(2):hover{
+    background-color: purple;
+}

@@ -1,0 +1,131 @@
+.car-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.car-item1 {
+    border: 1px solid green;
+    height: 350px;
+    width: 300px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.camry-image {
+    width: 300px;
+    height: 200px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+.price-label {
+    background-color: #fff;
+    margin-right: 5px;
+
+
+}
+
+.credit-label {
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: smaller;
+}
+
+.name-label {
+    color:blue;
+}
+.Toyota-Camry {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.description {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.city {
+    color: grey;
+    font-size: small;
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+
+}
+
+.container {
+    display: flex;
+}
+
+.date {
+    color: grey;
+    font-size: small;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+   
+
+}
+
+.img {
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    bottom: 8px;
+    left: 47px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.views {
+    color: grey;
+    font-size: small;
+    position: absolute;
+    bottom: 10px;
+    left: 75px;
+}
+
+.favorite {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.share {
+
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 8px;
+    right: 30px;
+}
+
+img {
+    
+    width: 100%;
+    height: 100%;
+}

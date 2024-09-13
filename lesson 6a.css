@@ -1,0 +1,15 @@
+.block {
+    background-color: aquamarine;
+    display: flex;
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.text1 {
+    position: absolute;
+     bottom: 5px;
+    right: 5px;
+    
+
+}
